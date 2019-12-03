@@ -13,6 +13,6 @@ void SelectionSort(int arr[], int size)
 			}
 		}
 
-		swap(&arr[min_idx], &arr[i]);
+		Swap(&arr[min_idx], &arr[i]);
 	}
 }

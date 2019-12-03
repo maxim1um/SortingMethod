@@ -1,3 +1,3 @@
 #pragma once
 
-void swap(int *xp, int *yp);
+void Swap(int *xp, int *yp);
