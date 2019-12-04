@@ -120,10 +120,12 @@
     <ClCompile Include="Source\BubbleSort.cpp" />
     <ClCompile Include="Source\Common.cpp" />
     <ClCompile Include="Source\InsertionSort.cpp" />
+    <ClCompile Include="Source\main.cpp" />
     <ClCompile Include="Source\SelectionSort.cpp" />
     <ClCompile Include="Source\ShellSort.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Header\algorithm.h" />
     <ClInclude Include="Header\Common.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

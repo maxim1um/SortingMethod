@@ -1,7 +1,8 @@
-#include "Common.h"
+#include "algorithm.h"
 
 void ShellSort(int arr[], int size)
 {
+	int count = 0;
 	for (int gap = size / 2; gap > 0 ; gap /= 2 )
 	{
 		for (int i = gap; i < size; i++)
@@ -16,5 +17,7 @@ void ShellSort(int arr[], int size)
 
 			arr[j] = temp;
 		}
+
+		count += 1;
 	}
 }

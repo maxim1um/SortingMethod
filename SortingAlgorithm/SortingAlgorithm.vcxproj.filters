@@ -30,9 +30,15 @@
     <ClCompile Include="Source\ShellSort.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Source\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Header\Common.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\algorithm.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

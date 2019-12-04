@@ -1,4 +1,4 @@
-#include "Common.h"
+#include "algorithm.h"
 
 void BubbleSort(int arr[], int size)
 {
@@ -11,6 +11,7 @@ void BubbleSort(int arr[], int size)
 			if (arr[j] > arr[j + 1])
 			{
 				Swap(&arr[j], &arr[j + 1]);
+				swapped = true;
 			}
 		}
 
