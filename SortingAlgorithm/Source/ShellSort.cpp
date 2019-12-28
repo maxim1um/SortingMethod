@@ -2,22 +2,20 @@
 
 void ShellSort(int arr[], int size)
 {
-	int count = 0;
 	for (int gap = size / 2; gap > 0 ; gap /= 2 )
 	{
 		for (int i = gap; i < size; i++)
 		{
-			int temp = arr[i];
+			int key = arr[i];
+			int j = i;
 
-			int j = 0;
-			for ( j = i; j >= gap && arr[j - gap] > temp; j -= gap)
+			while (j - gap >= 0 && arr[j - gap] > key)
 			{
 				arr[j] = arr[j - gap];
+				j -= gap;
 			}
 
-			arr[j] = temp;
+			arr[j] = key;
 		}
-
-		count += 1;
 	}
 }
